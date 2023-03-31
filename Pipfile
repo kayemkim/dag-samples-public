@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pytest = "*"
+pipenv-setup = "*"
+
+[packages]
+apache-airflow = "2.5.2"
+apache-airflow-providers-sktvane = "*"
+
+[requires]
+python_version = "3.9.16"
